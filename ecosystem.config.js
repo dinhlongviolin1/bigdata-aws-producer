@@ -1,9 +1,7 @@
 module.exports = {
     "apps": [{
         "name": "ProducerCrypto",
-        "script": "./main.py",
-        "args": [""],
-        "interpreter" : "pipenv",
-        "interpreter_args": "run python"
+        "script": "/bin/bash",
+        "args": ["c", "pipenv run python main.py"],
     }]
 }
